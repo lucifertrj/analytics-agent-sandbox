@@ -1,0 +1,17 @@
+[project]
+name = "polars-101"
+version = "0.1.0"
+description = "A Google ADK tool-calling agent that answers questions about sales data using Polars, with a Streamlit UI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars>=0.20.0",
+    "google-adk>=1.0.0",
+    "streamlit>=1.30.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+daytona = [
+    "daytona>=0.200.0",
+]
